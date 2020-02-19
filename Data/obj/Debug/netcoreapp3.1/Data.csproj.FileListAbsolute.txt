@@ -1,0 +1,13 @@
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Data\obj\Debug\netcoreapp3.1\Data.pdb

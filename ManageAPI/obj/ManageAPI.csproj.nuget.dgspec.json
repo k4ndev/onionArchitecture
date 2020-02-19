@@ -1,0 +1,330 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\ManageAPI\\ManageAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\ManageAPI\\ManageAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\ManageAPI\\ManageAPI.csproj",
+        "projectName": "ManageAPI",
+        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\ManageAPI\\ManageAPI.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\ManageAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj"
+              },
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CryptoHelper": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
