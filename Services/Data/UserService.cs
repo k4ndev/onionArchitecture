@@ -47,8 +47,6 @@ namespace Services.Data
            
         }
 
-       
-
         public async Task<User> IsExistUser(string email, string password)
         {
             User user = await _unitOfWork.User.SingleOrDefaultAsync(x => x.Email == email);
@@ -72,7 +70,7 @@ namespace Services.Data
                 new Claim(ClaimTypes.Name,user.FullName)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
+            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_configuration.GetSection("AppSettings:Token").Value));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
             var tokendesc = new SecurityTokenDescriptor

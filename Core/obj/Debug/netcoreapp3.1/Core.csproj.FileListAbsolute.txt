@@ -5,3 +5,4 @@ C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Core\obj
 C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
 C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Kamran\Documents\Visual Studio 2019\Projects\OnionArchitecture\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache

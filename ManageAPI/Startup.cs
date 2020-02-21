@@ -5,6 +5,7 @@ using Data;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using ManageAPI.DTO;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,22 +34,8 @@ namespace ManageAPI
         public void ConfigureServices(IServiceCollection services)
         {
             var connection = @"Server=KAMRAN;Database=MusicApp;Trusted_Connection=True;MultipleActiveResultSets=true";
-
+            services.AddCors();
             services.AddControllers();
-
-            //var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration.GetSection("AppSettings:Token").Value));
-            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
-            //{
-            //    options.TokenValidationParameters = new TokenValidationParameters
-            //    {
-            //        ValidateIssuerSigningKey = true,
-            //        IssuerSigningKey = key,
-            //        ValidateIssuer = false,
-            //        ValidateAudience = false
-            //    };
-            //});
-
-
 
 
             services.AddAutoMapper(typeof(Startup));
@@ -62,13 +49,31 @@ namespace ManageAPI
             services.AddTransient<IArtistService, ArtistService>();
             services.AddTransient<IUserService, UserService>();
 
+            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:Token").Value));
+            services.AddAuthentication(x=> {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey =key,
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
             services.AddMvc(setup =>
             {
-                //...mvc setup...
+                //setup.EnableEndpointRouting = false;
+                
             }).AddFluentValidation();
 
             services.AddTransient<IValidator<ArtistCreateDto>, ArtistCreateDtoValidator>();
-
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,13 +87,20 @@ namespace ManageAPI
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(x => x
+               .AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
 
+            app.UseAuthentication();
             app.UseAuthorization();
+           
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
+            //app.UseMvc();
         }
     }
 }

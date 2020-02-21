@@ -2,13 +2,16 @@
 using Core.Models;
 using Core.Services.Data;
 using ManageAPI.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace ManageAPI.Controllers
 {
+    [Authorize]
     [Route("api/login")]
     [ApiController]
+   
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -20,14 +23,16 @@ namespace ManageAPI.Controllers
             _userService = userService;
         }
 
+       
         [HttpGet]
-        [Route("")]
+        [Route("get")]
         public async Task<IActionResult> Get()
         {
            
             return Ok("ok");
         }
 
+        [AllowAnonymous]
         [HttpPost]
         [Route("")]
         public async Task<IActionResult> Login([FromBody]UserDto userDto)
