@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj": {}
+    "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
+    "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\obj\\",
+        "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\GT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\GT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -29,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,13 +42,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,25 +59,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj": {
+    "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\obj\\",
+        "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\GT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\GT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -84,9 +89,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj"
+              "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj"
               }
             }
           }
@@ -99,6 +105,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -121,7 +128,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -130,25 +138,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj": {
+    "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Services\\obj\\",
+        "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\GT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\GT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -159,12 +168,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Core\\Core.csproj"
+              "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Core\\Core.csproj"
               },
-              "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\Kamran\\Documents\\Visual Studio 2019\\Projects\\OnionArchitecture\\Data\\Data.csproj"
+              "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\GT\\Desktop\\Kamran\\Code\\onionArchitecture\\Data\\Data.csproj"
               }
             }
           }
@@ -177,6 +187,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "CryptoHelper": {
               "target": "Package",
@@ -197,7 +208,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -206,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
